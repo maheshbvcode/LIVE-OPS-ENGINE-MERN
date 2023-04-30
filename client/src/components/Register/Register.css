@@ -1,0 +1,39 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px);
+}
+
+.form-container>h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.input-container > input{
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.input-container > input:focus-visible{
+    outline-color: skyblue;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.errors{
+    color: red
+}
