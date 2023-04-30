@@ -1,0 +1,111 @@
+.offer-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:60vw;
+    margin: 10px 0;
+    padding: 20px;
+    row-gap: 10px;
+}
+
+.products-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.product-image{
+    width: 200px;
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-image>img{
+    width: 100%;
+}
+
+.offer-id{
+    font-size: 2rem;
+    color: black;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.offer-title{
+    font-size: 2.5rem;
+    background-color: goldenrod;
+    padding: 5px;
+}
+
+.content-container{
+    border: 2px solid whitesmoke;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-container>h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.price-container, .btns-container{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-btn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.edit-btn{
+    background-color: rgb(0, 102, 255);
+    color: white;
+    font-weight: bold;
+}
+
+.error-modal{
+    position: fixed;
+    top: -300px;
+    transition: top;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    z-index: 10;
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.btn{
+    margin: 0 20px;
+}

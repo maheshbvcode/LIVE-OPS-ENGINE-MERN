@@ -1,0 +1,26 @@
+.edit-section{
+    background-color: rgb(179, 178, 178);
+    padding: 20px;
+    color: black;
+    width: 60vw
+}
+
+.edit-modal{
+    position: absolute;
+    top: 80px;
+    z-index: 1;
+}
+
+.update, .discard{
+    background-color:rgb(0, 102, 255);
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.update{
+    margin-right: 60px;
+}

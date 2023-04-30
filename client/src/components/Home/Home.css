@@ -1,0 +1,28 @@
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.input-container>label{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.input-container>select{
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.message{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 50px 0;
+}
